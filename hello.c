@@ -3,14 +3,10 @@
 int main()
 {
 
-    // input
+    // square
 
-    int number1, number2;
-    printf("enter the first number :");
-    scanf("%d", &number1);
-    printf("enter the second number :");
-    scanf("%d", &number2);
-    int sum = number1 + number2;
-    printf("sum of to number is : %d", sum);
+    int number1 = 5;
+    int square1 = number1 * number1;
+    printf("square of number1 is : %d", square1);
     return 0;
 };
