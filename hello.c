@@ -2,6 +2,8 @@
 
 int main()
 {
+
+    // format specefires
     int age = 24;
     printf("age is %d \n", age);
 
