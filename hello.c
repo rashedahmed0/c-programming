@@ -3,10 +3,13 @@
 int main()
 {
 
-    // square
+    // area of circle
 
-    int number1 = 5;
-    int square1 = number1 * number1;
-    printf("square of number1 is : %d", square1);
+    int radius;
+    printf("print circle radius : ");
+    scanf("%d", &radius);
+    float pi = 3.1416;
+    float area = pi * (radius * radius);
+    printf("area of circle is : %f", area);
     return 0;
 };
