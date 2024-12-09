@@ -3,11 +3,10 @@
 
 int main()
 {
-    // Qs.5 Write a program if number divided by 2 or not
-    int x;
-    printf("enter number : ");
-    scanf("%d", &x);
-    printf("%d \n", x % 2 == 0);
+    // Qs.6 (a)if it sunday and its snowing
+    int isSunday = 1;
+    int isSnowing = 1;
+    printf("%d", isSunday && isSnowing);
 
     return 0;
 }
