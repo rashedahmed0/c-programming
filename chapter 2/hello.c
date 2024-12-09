@@ -3,19 +3,9 @@
 
 int main()
 {
-    // Valid instructions
-    int a, b, c;
-    b = 2;
-    c = 3;
-    a = b + c;
-    printf("sum of b and c %d \n", a);
-    a = b - c;
-    printf("minus of b and c  %d \n", a);
-    a = b * c;
-    printf("multiply of b and c  %d \n", a);
+    //   moduler operator
 
-    a = pow(b, c);
-    printf("power of b and c  %d \n", a);
+    printf("%d", 5 % 2);
 
     return 0;
 }
