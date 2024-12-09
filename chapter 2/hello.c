@@ -3,20 +3,16 @@
 
 int main()
 {
-    //     Qs 4
+    //  relation operator
 
-    // a
-    int a = 5 * 2 - 2 * 3;
-    printf("%d \n", a);
-    // b
-    int b = 5 * 2 / 2 * 3;
-    printf("%d \n", b);
-    // c
-    int c = 5 * (2 / 2) * 3;
-    printf("%d \n", c);
-    // d
-    int d = 5 + 2 / 2 * 3;
-    printf("%d \n", d);
+    printf("%d \n", 4 == 4);
+    printf("%d \n", 4 == 3);
+    printf("%d \n", 4 != 3);
+    printf("%d \n", 4 != 4);
+    printf("%d \n", 4 > 4);
+    printf("%d \n", 4 >= 4);
+    printf("%d \n", 4 <= 4);
+    printf("%d \n", 4 < 4);
 
     return 0;
 }
