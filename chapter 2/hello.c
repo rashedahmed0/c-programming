@@ -3,12 +3,13 @@
 
 int main()
 {
-    // Qs.7 (a) write a program print the average of 3 number
-    int x = 10;
-    int y = 5;
-    int z = 15;
-
-    printf("%d", (x + y + z) / 3);
+    // Qs.7 (a) write a program to check given character digit or not
+    char ch;
+    int result;
+    printf("enter the character : ");
+    scanf("%d", &ch);
+    result = ch > 0 && ch < 9;
+    printf("%d \n", result);
 
     return 0;
 }
