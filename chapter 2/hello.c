@@ -3,10 +3,10 @@
 
 int main()
 {
-    // Qs.6 (a)if it sunday and its snowing
-    int isSunday = 1;
-    int isSnowing = 1;
-    printf("%d", isSunday && isSnowing);
+    // Qs.6 (b)if it monday or its rainning
+    int isMonday = 0;
+    int isRaining = 1;
+    printf("%d", isMonday || isRaining);
 
     return 0;
 }
