@@ -3,10 +3,20 @@
 
 int main()
 {
-    //   operator precedence
+    //     Qs 4
 
-    int a = 4 * 3 / 6 * 2;
+    // a
+    int a = 5 * 2 - 2 * 3;
     printf("%d \n", a);
+    // b
+    int b = 5 * 2 / 2 * 3;
+    printf("%d \n", b);
+    // c
+    int c = 5 * (2 / 2) * 3;
+    printf("%d \n", c);
+    // d
+    int d = 5 + 2 / 2 * 3;
+    printf("%d \n", d);
 
     return 0;
 }
