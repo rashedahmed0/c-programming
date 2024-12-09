@@ -2,11 +2,19 @@
 
 int main()
 {
-    int age;
-    printf("enter  your age : ");
-    scanf("%d", &age);
+    // write a statement for pass or not pass
 
-    age > 18 ? printf("adult") : printf("not adult");
+    int number;
+    printf("enter your number : ");
+    scanf("%d", &number);
+    if (number > 32)
+    {
+        printf("pass");
+    }
+    else
+    {
+        printf("fail");
+    }
 
     return 0;
 }
