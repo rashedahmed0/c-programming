@@ -3,11 +3,10 @@
 
 int main()
 {
-    //   type conversation
+    //   Qs.3
 
-    printf("int + int = int  %d \n", 5 * 2);
-    printf("int + float = float  %f \n", 5 * 2.00);
-    printf("float + float = float  %f \n", 5.5 * 2.4);
+    int a = 1.999999;
+    printf("%d", a);
 
     return 0;
 }
