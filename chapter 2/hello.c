@@ -3,9 +3,9 @@
 
 int main()
 {
-    //   Qs.3
+    //   operator precedence
 
-    int a = 1.999999;
+    int a = 4 + 9 * 10;
     printf("%d", a);
 
     return 0;
