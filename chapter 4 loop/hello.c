@@ -3,13 +3,16 @@
 int main()
 
 {
-    // print all odd numbers from 5 to 50 ;
-    for (int i = 5; i <= 50; i++)
+    // factorial number
+    int a;
+    printf("enter your number ");
+    scanf("%d", &a);
+
+    int fatorial = 1;
+    for (int i = 1; i <= a; i++)
     {
-        if (i % 2 != 0)
-        {
-            printf("%d \n", i);
-        }
+        fatorial = fatorial * i;
     }
+    printf("%d", fatorial);
     return 0;
 }
