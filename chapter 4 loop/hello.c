@@ -3,21 +3,13 @@
 int main()
 
 {
-    // print 1 to 10 without 6
-    for (int i = 1; i <= 10; i++)
+    // print all odd numbers from 5 to 50 ;
+    for (int i = 5; i <= 50; i++)
     {
-        if (i == 6)
+        if (i % 2 != 0)
         {
-            continue;
+            printf("%d \n", i);
         }
-        printf("%d \n", i);
     }
-    for (int i = 1; i <= 10; i++)
-    {
-        if (i == 6)
-        {
-            break;
-        }
-        printf("%d \n", i);
-    }
+    return 0;
 }
