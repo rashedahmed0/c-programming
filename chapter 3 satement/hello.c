@@ -2,22 +2,17 @@
 
 int main()
 {
-    //   check upper case and lower case
-    char ch;
-    printf("enter english latter : ");
-    scanf("%c", &ch);
-
-    if (ch > 'a' && ch < 'z')
+    //   neutral number
+    int a;
+    printf("enter your number : ");
+    scanf("%d", &a);
+    if (a > 0)
     {
-        printf("this is lower case ");
-    }
-    else if (ch > 'A' && ch < 'Z')
-    {
-        printf("this is upper case");
+        printf("this is neutral number ");
     }
     else
     {
-        printf("this is not english latter ");
+        printf("this is not neutral number ");
     }
 
     return 0;
