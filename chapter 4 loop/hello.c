@@ -3,13 +3,14 @@
 int main()
 
 {
-    // sum of n neutral number and print reverse
-    int sum = 0;
-    for (int i = 10; i >= 1; i--)
+    // print a table number of take user number
+    int n;
+    printf("enter your number : ");
+    scanf("%d", &n);
+    for (int i = 1; i <= 10; i++)
     {
-        sum += i;
-        printf("%d \n", i);
+        int table = n * i;
+
+        printf("%d \n", table);
     }
-    printf("%d \n", sum);
-    return 0;
 }
