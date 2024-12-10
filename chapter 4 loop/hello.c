@@ -3,16 +3,13 @@
 int main()
 
 {
-    // factorial number
-    int a;
-    printf("enter your number ");
-    scanf("%d", &a);
-
-    int fatorial = 1;
-    for (int i = 1; i <= a; i++)
+    // reverse table
+    int n;
+    printf("enter your number : ");
+    scanf("%d", &n);
+    for (int i = 10; i >= 1; i--)
     {
-        fatorial = fatorial * i;
+        printf("%d \n", n * i);
     }
-    printf("%d", fatorial);
     return 0;
 }
