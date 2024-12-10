@@ -1,17 +1,23 @@
 #include <stdio.h>
 
 // function declaretion
-void printHello();
+void hello();
+void goodBye();
 int main()
 {
 
     // function call
-    printHello();
+    hello();
+    goodBye();
     return 0;
 }
 
 // function definetion
-void printHello()
+void hello()
 {
-    printf("hello every one");
+    printf("hello \n");
+}
+void goodBye()
+{
+    printf("good bye");
 }
