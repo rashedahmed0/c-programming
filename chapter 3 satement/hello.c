@@ -2,18 +2,22 @@
 
 int main()
 {
-    // write a statement for pass or not pass
+    // write a grading statement
 
     int number;
     printf("enter your number : ");
     scanf("%d", &number);
-    if (number > 32)
+    if (number > 80)
     {
-        printf("pass");
+        printf("a+");
     }
-    else
+    else if (number > 69 && number < 80)
     {
-        printf("fail");
+        printf("a");
+    }
+    else if (number > 33 && number < 60)
+    {
+        printf("a-");
     }
 
     return 0;
