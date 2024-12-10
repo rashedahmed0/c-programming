@@ -4,9 +4,12 @@ int main()
 
 {
     // sum of n neutral number and print reverse
-    for (char ch = 'a'; ch <= 'z'; ch++)
+    int sum = 0;
+    for (int i = 10; i >= 1; i--)
     {
-        printf("%c \n", ch);
+        sum += i;
+        printf("%d \n", i);
     }
+    printf("%d \n", sum);
     return 0;
 }
