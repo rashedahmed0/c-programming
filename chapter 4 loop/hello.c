@@ -3,10 +3,10 @@
 int main()
 
 {
-    // print 1 to 100
-    for (int i = 1; i <= 100; i++)
+    // sum of n neutral number and print reverse
+    for (char ch = 'a'; ch <= 'z'; ch++)
     {
-        printf("%d \n", i);
+        printf("%c \n", ch);
     }
     return 0;
 }
