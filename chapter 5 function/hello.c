@@ -1,32 +1,24 @@
 #include <stdio.h>
 
 // function declaretion
-void hi();
-void salam();
+int sum(int a, int b);
 int main()
 {
 
     // function call
-    char ch;
-    printf("type a for muslim and o for other relagion : ");
-    scanf(" %c", &ch);
-    if (ch == 'a')
-    {
-        salam();
-    }
-    else
-    {
-        hi();
-    }
+    int x, y;
+    printf("enter first number : ");
+    scanf("%d", &x);
+    printf("enter second number : ");
+    scanf("%d", &y);
+    int result = sum(x, y);
+    printf("sum is :  %d", result);
     return 0;
 }
 
 // function definetion
-void hi()
+int sum(int a, int b)
 {
-    printf("hi");
-}
-void salam()
-{
-    printf("assalamu alaikum ");
+    int c = a + b;
+    return c;
 }
