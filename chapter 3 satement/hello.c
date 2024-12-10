@@ -2,22 +2,22 @@
 
 int main()
 {
-    // write a grading statement
+    //   check upper case and lower case
+    char ch;
+    printf("enter english latter : ");
+    scanf("%c", &ch);
 
-    int number;
-    printf("enter your number : ");
-    scanf("%d", &number);
-    if (number > 80)
+    if (ch > 'a' && ch < 'z')
     {
-        printf("a+");
+        printf("this is lower case ");
     }
-    else if (number > 69 && number < 80)
+    else if (ch > 'A' && ch < 'Z')
     {
-        printf("a");
+        printf("this is upper case");
     }
-    else if (number > 33 && number < 60)
+    else
     {
-        printf("a-");
+        printf("this is not english latter ");
     }
 
     return 0;
