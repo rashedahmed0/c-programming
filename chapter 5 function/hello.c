@@ -1,23 +1,32 @@
 #include <stdio.h>
 
 // function declaretion
-void hello();
-void goodBye();
+void hi();
+void salam();
 int main()
 {
 
     // function call
-    hello();
-    goodBye();
+    char ch;
+    printf("type a for muslim and o for other relagion : ");
+    scanf(" %c", &ch);
+    if (ch == 'a')
+    {
+        salam();
+    }
+    else
+    {
+        hi();
+    }
     return 0;
 }
 
 // function definetion
-void hello()
+void hi()
 {
-    printf("hello \n");
+    printf("hi");
 }
-void goodBye()
+void salam()
 {
-    printf("good bye");
+    printf("assalamu alaikum ");
 }
