@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 // function declaretion
-int sum(int a, int b);
+int table(int n);
 int main()
 {
 
     // function call
-    int x, y;
-    printf("enter first number : ");
-    scanf("%d", &x);
-    printf("enter second number : ");
-    scanf("%d", &y);
-    int result = sum(x, y);
-    printf("sum is :  %d", result);
+    int n;
+    printf("enter number : ");
+    scanf("%d", &n);
+    table(n);
     return 0;
 }
 
 // function definetion
-int sum(int a, int b)
+int table(int n)
+
 {
-    int c = a + b;
-    return c;
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d \n", n * i);
+    }
 }
